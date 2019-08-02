@@ -1,6 +1,6 @@
 // isEmpty
 const isEmpty = function (input: string): boolean {
-    return !!input
+    return !!!input
 }
 
 // isCellPhone
