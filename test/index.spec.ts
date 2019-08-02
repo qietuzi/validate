@@ -1,4 +1,4 @@
-import { isEmpty, phone } from '../index'
+import { isEmpty, isCellPhone } from '../index'
 
 describe('This is isEmpty', () => {
     let empty = ''
@@ -9,7 +9,7 @@ describe('This is isEmpty', () => {
     })
 
     it('This is not empty', () => {
-        expect(isEmpty(notEmpty)).toBe(true)
+        expect(isEmpty(notEmpty)).toBe(false)
     })
 })
 
@@ -18,11 +18,11 @@ describe('This is phone', () => {
     let errorPhone = 'not a phone'
 
     it('This is right phone', () => {
-        expect(phone(rightPhone)).toBe(true)
+        expect(isCellPhone(rightPhone)).toBe(true)
     })
 
     it('This is error phone', () => {
-        expect(phone(errorPhone)).toBe(true)
+        expect(isCellPhone(errorPhone)).toBe(false)
     })
 })
 

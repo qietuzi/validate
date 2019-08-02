@@ -1,5 +1,5 @@
 {
-  "name": "@qiangqiang93/validate",
+  "name": "easy-verify",
   "version": "0.0.1",
   "description": "easy to validate",
   "main": "index.js",
