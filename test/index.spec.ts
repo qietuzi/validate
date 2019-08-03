@@ -1,4 +1,4 @@
-import { isEmpty, isCellPhone } from '../index'
+import { isEmpty, isCellPhone } from '../src/index'
 
 describe('This is isEmpty', () => {
     let empty = ''
