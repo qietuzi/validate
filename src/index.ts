@@ -36,3 +36,12 @@ export {
     isZipCode,
     isIdNum
 }
+
+export default {
+    isEmpty,
+    isCellPhone,
+    isTelPhone,
+    isEmail,
+    isZipCode,
+    isIdNum
+}

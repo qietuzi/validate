@@ -1,6 +1,6 @@
 {
   "name": "easy-verify",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "easy to validate",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
