@@ -1,6 +1,9 @@
 ### easy-verify
-A js library for regs,一个常用的正则库
-### 安装&&使用
+
+A js library for common regs,一个常用的正则库
+
+### Install && Use(安装&&使用)
+
 ```
 npm i easy-verify --save
 ```
@@ -13,27 +16,22 @@ verify.isCellPhone(cellphone)
 import { isCellPhone } from 'easy-verify'
 
 isCellPhone(cellphone)
+// or
+const verify = require('easy-verify')
+
+verify.isCellPhone(cellphone)
 ```
-### 主要方法
+
+### Main method(主要方法)
+
+**All methord return a boolean**
 
 **isEmpty(input: string): boolean**
 
-接受一个字符串,返回是否空字符串,如果传入其他类型,则返回强制转换的布尔值
-
 **isCellPhone(input: string): boolean**
-
-接受一个字符串,返回是否手机号码
 
 **isTelPhone(input: string): boolean**
 
-接受一个字符串,返回是否座机号码
-
 **isZipCode(input: string): boolean**
 
-接受一个字符串,返回是否邮编号码
-
 **isIdNum(input: string): boolean**
-
-接受一个字符串,返回是否身份证号码
-
-    
