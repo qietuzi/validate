@@ -1,37 +1,44 @@
-### easy-verify
+### @qietuzi/validate
 
 A js library for common regs,一个常用的正则库
 
 ### Install && Use(安装&&使用)
 
 ```
-npm i easy-verify --save
+npm i@qietuzi/validate --save
 ```
 
 ```js
-import verify from 'easy-verify'
+import validate from '@qietuzi/validate'
 
-verify.isCellPhone(cellphone)
+validate.isCellPhone(cellphone)
 // or
-import { isCellPhone } from 'easy-verify'
+import { isCellPhone } from '@qietuzi/validate'
 
 isCellPhone(cellphone)
 // or
-const verify = require('easy-verify')
+const validate = require('@qietuzi/validate')
 
-verify.isCellPhone(cellphone)
+validate.isCellPhone(cellphone)
 ```
 
 ### Main method(主要方法)
 
 **All methord return a boolean**
 
+**isQQ(input: string): boolean**
+Tencent qq number
+
 **isEmpty(input: string): boolean**
 
-**isCellPhone(input: string): boolean**
-
-**isTelPhone(input: string): boolean**
+**isIdNum(input: string): boolean**
+China id number
 
 **isZipCode(input: string): boolean**
+China zip code
 
-**isIdNum(input: string): boolean**
+**isTelPhone(input: string): boolean**
+China telphone
+
+**isCellPhone(input: string): boolean**
+China cellphone

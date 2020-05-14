@@ -1,6 +1,6 @@
 {
-  "name": "easy-verify",
-  "version": "0.0.7",
+  "name": "@qietuzi/validate",
+  "version": "0.0.2",
   "description": "easy to validate",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,16 +13,16 @@
   "author": "qiang",
   "license": "ISC",
   "devDependencies": {
-    "@types/jasmine": "^3.3.16",
-    "jasmine-core": "^3.4.0",
-    "karma": "^4.2.0",
-    "karma-chrome-launcher": "^3.0.0",
+    "@types/jasmine": "^3.5.10",
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
     "karma-jasmine": "^2.0.1",
     "karma-typescript": "^4.1.1",
-    "typescript": "^3.5.3"
+    "typescript": "^3.9.2"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/qiangqiang93/easy-verify"
+    "type": "git",
+    "url": "https://github.com/qiangqiang93/easy-verify"
   }
 }
