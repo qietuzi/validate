@@ -1,11 +1,18 @@
 {
-  "name": "@qietuzi/validate",
-  "version": "0.0.2",
-  "description": "easy to validate",
+  "name": "my-webpack-project",
+  "version": "1.0.1",
+  "description": "My webpack project",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+    "build": "webpack --mode=production --node-env=production",
+    "test": "./node_modules/karma/bin/karma start karma.conf.js",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
   },
   "keywords": [
     "validate"
@@ -14,19 +21,21 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jasmine": "^3.5.11",
+    "@webpack-cli/generators": "^2.4.1",
     "jasmine-core": "^3.5.0",
     "karma": "^4.4.1",
     "karma-chrome-launcher": "^3.1.0",
     "karma-jasmine": "^2.0.1",
     "karma-typescript": "^4.1.1",
-    "typescript": "^3.9.2"
+    "prettier": "^2.4.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^3.9.10",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1"
   },
+  "browserslist": ">1%",
   "repository": {
     "type": "git",
     "url": "https://github.com/qiangqiang93/easy-verify"
-  },
-  "dependencies": {
-    "install": "^0.13.0",
-    "npm": "^6.14.7"
   }
 }
