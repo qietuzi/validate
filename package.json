@@ -1,7 +1,7 @@
 {
   "name": "@qietuzi/validate",
-  "version": "1.0.1",
-  "description": "My webpack project",
+  "version": "1.0.2",
+  "description": "A js library for common regs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -21,6 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jasmine": "^3.5.11",
+    "@types/jest": "^29.0.1",
     "@webpack-cli/generators": "^2.4.1",
     "jasmine-core": "^3.5.0",
     "karma": "^4.4.1",

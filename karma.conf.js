@@ -32,6 +32,10 @@ module.exports = function(config) {
         'test/*.spec.ts': 'karma-typescript'
     },
 
+    coverageReporter: {
+      type: 'html',
+      dir: './test_docs/'
+    },
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
